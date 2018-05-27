@@ -1,6 +1,6 @@
 {
-  "name": "serializable-error",
-  "version": "0.0.1",
+  "name": "stringifiable-error",
+  "version": "0.0.0",
   "description": "Allow instances of Error to be serialized implicitly by JSON.stringify()",
   "main": "index.js",
   "types": "index.d.ts",

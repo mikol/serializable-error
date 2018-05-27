@@ -1,4 +1,4 @@
-# Serializable Error
+# Stringifiable Error
 
 Enhances `Error.prototype` with a `toJSON()` method so that errors can be
 serialized without explicit transformation.
@@ -6,16 +6,16 @@ serialized without explicit transformation.
 ## Installation
 
 ```
-npm install serializable-error
+npm install stringifiable-error
 ```
 
 ## Usage
 
-You only need to `import` (or `require()`) `'serializable-error'` for its side
+You only need to `import` (or `require()`) `'stringifiable-error'` for its side
 effects once, typically in the primary entry point to your program.
 
 ```js
-import 'serializable-error'
+import 'stringifiable-error'
 ```
 
 Then, wherever you need to serialize an error, `JSON.stringify()` will work.
